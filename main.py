@@ -4,5 +4,9 @@ class Producto:
         self.precio = precio
         self.stock = stock
 
+    def descuento (self, precio):
+        precio = precio * 0.15
+        return precio
+
 
         
