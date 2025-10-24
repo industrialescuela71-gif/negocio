@@ -10,6 +10,10 @@ class Producto:
             return True
         else: 
             return False
+          
+    def descuento (self, precio):
+        precio = precio * 0.15
+        return precio
 
 remera = Producto("Remera roja", 10000, 50)
 
